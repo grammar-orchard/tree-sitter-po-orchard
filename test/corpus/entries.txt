@@ -1,0 +1,79 @@
+================================================================================
+Entry with comments
+================================================================================
+
+#: libraries/navigation/Nodes/Node_Database_Container.class.php:31
+#, fuzzy
+#| msgctxt "Create new procedure"
+#| msgid "New"
+msgctxt "Create new database"
+msgid "New"
+msgstr "새로운"
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (comment
+    (reference
+      (text)))
+  (comment
+    (flag
+      (text)))
+  (comment
+    (extracted_comment
+      (string
+        (string_fragment))))
+  (comment
+    (extracted_comment
+      (string
+        (string_fragment))))
+  (message
+    (msgctxt
+      (string
+        (string_fragment)))
+    (msgid
+      (string
+        (string_fragment)))
+    (msgstr
+      (string
+        (string_fragment)))))
+
+================================================================================
+New syntax for flags
+================================================================================
+
+#: libraries/navigation/Nodes/Node_Database_Container.class.php:31
+#= fuzzy
+#| msgctxt "Create new procedure"
+#| msgid "New"
+msgctxt "Create new database"
+msgid "New"
+msgstr "새로운"
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (comment
+    (reference
+      (text)))
+  (comment
+    (flag
+      (text)))
+  (comment
+    (extracted_comment
+      (string
+        (string_fragment))))
+  (comment
+    (extracted_comment
+      (string
+        (string_fragment))))
+  (message
+    (msgctxt
+      (string
+        (string_fragment)))
+    (msgid
+      (string
+        (string_fragment)))
+    (msgstr
+      (string
+        (string_fragment)))))

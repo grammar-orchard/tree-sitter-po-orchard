@@ -1,0 +1,42 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "po_orchard",
+      "camelcase": "PoOrchard",
+      "title": "po",
+      "scope": "source.po",
+      "file-types": [
+        "po"
+      ],
+      "injection-regex": "^po_orchard$",
+      "class-name": "TreeSitterPoOrchard"
+    }
+  ],
+  "metadata": {
+    "version": "0.3.1",
+    "license": "MIT",
+    "description": "Parser for gettext .po files",
+    "authors": [
+      {
+        "name": "Erasin Wang",
+        "email": "erasinoo@gmail.com",
+        "url": "https://github.com/erasin"
+      }
+    ],
+    "links": {
+      "repository": "https://codeberg.org/grammar-orchard/tree-sitter-po-orchard",
+      "upstream": "https://github.com/tree-sitter-grammars/tree-sitter-po",
+      "github_mirror": "https://github.com/grammar-orchard/tree-sitter-po-orchard"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
